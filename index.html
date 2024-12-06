@@ -1,9 +1,27 @@
 <!DOCTYPE html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A3 Chuyên Tin</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="shortcut icon" href="https://cdn.a3sachhonaba.com/resource/icon/chuyentin.webp" type="image/x-icon">
 </head>
 <body>
-    <p>Một khởi đầu mới, một trải nghiệm mới!</p>
+    <div class="background">
+        <div class="cover">
+            <h1>A3 Chuyên Tin</h1>
+        </div>
+    </div>
+    <div class="content">
+        <button onclick="openForm('/thuvientailieu')">
+            <span class="text">Thư viện tài liệu</span>
+          </button>          
+    </div>
+    <script>
+        function openForm(url) {
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>
