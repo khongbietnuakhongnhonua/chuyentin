@@ -1,0 +1,63 @@
+{
+    "tailieu": [
+        {
+            "name": "Tài liệu giáo khoa chuyên tin",
+            "id": "tlgkct",
+            "files": [
+                {"name": "Quyển 1", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen1.pdf"},
+                {"name": "Quyển 1 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen1_BaiTap.pdf"},
+                {"name": "Quyển 2", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen2.pdf"},
+                {"name": "Quyển 2 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen2_BaiTap.pdf"},
+                {"name": "Quyển 3", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen3.pdf"},
+                {"name": "Quyển 3 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen3_BaiTap.pdf"}
+            ]
+        },
+        {
+            "name": "Sách giáo khoa tin học 11 bằng C++",
+            "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/sachgiaokhoatinhoc11bangcpp/sachgiaokhoatinhoc11bangcpp.pdf"
+        }
+    ],
+    "dethi": [
+        {
+            "name": "Olympic truyền thống 30/4",
+            "id": "olympic304",
+            "files": [
+                {"name": "2011", "url": "https://example.com/Olympic2011.pdf"},
+                {"name": "2012", "url": "https://example.com/Olympic2012.pdf"},
+                {"name": "2013", "url": "https://example.com/Olympic2013.pdf"}
+            ]
+        },
+        {
+            "name": "Tuyển sinh 10",
+            "id": "tuyensinh10",
+            "files": [
+                {
+                    "name": "Tỉnh Sóc Trăng",
+                    "id": "soctrang2024",
+                    "files": [
+                        {"name": "Năm học 2024-2025", "url": "https://example.com/TuyenSinh10_SocTrang_2024.pdf"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HSG",
+            "id": "hsg",
+            "files": [
+                {
+                    "name": "Tỉnh Sóc Trăng",
+                    "id": "hsgcap",
+                    "files": [
+                        {
+                            "name": "Cấp huyện",
+                            "id": "hsgcapc",
+                            "files": [
+                                {"name": "2024", "url": "https://example.com/HSG_CapHuyen_2024.pdf"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
