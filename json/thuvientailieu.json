@@ -33,7 +33,7 @@
             "files": [
                 {
                     "name": "Tỉnh Sóc Trăng",
-                    "id": "soctrang2024",
+                    "id": "ts-tinhsoctrang",
                     "files": [
                         {"name": "Năm học 2024-2025", "url": "https://example.com/TuyenSinh10_SocTrang_2024.pdf"}
                     ]
@@ -46,11 +46,11 @@
             "files": [
                 {
                     "name": "Tỉnh Sóc Trăng",
-                    "id": "hsgcap",
+                    "id": "hsg-tinhsoctrang",
                     "files": [
                         {
                             "name": "Cấp huyện",
-                            "id": "hsgcapc",
+                            "id": "hsg-tinhsoctrang-huyen",
                             "files": [
                                 {"name": "2024", "url": "https://example.com/HSG_CapHuyen_2024.pdf"}
                             ]
