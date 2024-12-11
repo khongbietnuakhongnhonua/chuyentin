@@ -22,9 +22,7 @@
             "name": "Olympic truyền thống 30/4",
             "id": "olympic304",
             "files": [
-                {"name": "2011", "url": "https://example.com/Olympic2011.pdf"},
-                {"name": "2012", "url": "https://example.com/Olympic2012.pdf"},
-                {"name": "2013", "url": "https://example.com/Olympic2013.pdf"}
+                {"name": "Đang cập nhật", "url": "https://example.com/"}
             ]
         },
         {
@@ -33,9 +31,9 @@
             "files": [
                 {
                     "name": "Tỉnh Sóc Trăng",
-                    "id": "ts-tinhsoctrang",
+                    "id": "tuyensinh10-tinhsoctrang",
                     "files": [
-                        {"name": "Năm học 2024-2025", "url": "https://example.com/TuyenSinh10_SocTrang_2024.pdf"}
+                        {"name": "Năm học 2024-2025", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/dethi/tuyensinh10/tinhsoctrang/2024-2025.pdf"}
                     ]
                 }
             ]
@@ -45,14 +43,16 @@
             "id": "hsg",
             "files": [
                 {
-                    "name": "Tỉnh Sóc Trăng",
-                    "id": "hsg-tinhsoctrang",
+                    "name": "THPT",
+                    "id": "hsg-thpt",
                     "files": [
                         {
-                            "name": "Cấp huyện",
-                            "id": "hsg-tinhsoctrang-huyen",
+                            "name": "Tỉnh Sóc Trăng",
+                            "id": "hsg-tinhsoctrang",
                             "files": [
-                                {"name": "2024", "url": "https://example.com/HSG_CapHuyen_2024.pdf"}
+                                {"name": "2024-2025", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/dethi/thpt/hsg/tinhsoctrang/2024-2025.pdf"},
+                                {"name": "2023-2024", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/dethi/thpt/hsg/tinhsoctrang/2023-2024.pdf"},
+                                {"name": "2022-2023", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/dethi/thpt/hsg/tinhsoctrang/2022-2023.pdf"}
                             ]
                         }
                     ]
