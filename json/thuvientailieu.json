@@ -4,12 +4,12 @@
             "name": "Tài liệu giáo khoa chuyên tin",
             "id": "tlgkct",
             "files": [
-                {"name": "Quyển 1", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen1.pdf"},
-                {"name": "Quyển 1 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen1_BaiTap.pdf"},
-                {"name": "Quyển 2", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen2.pdf"},
-                {"name": "Quyển 2 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen2_BaiTap.pdf"},
-                {"name": "Quyển 3", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen3.pdf"},
-                {"name": "Quyển 3 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/Quyen3_BaiTap.pdf"}
+                {"name": "Quyển 1", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen1.pdf"},
+                {"name": "Quyển 1 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen1_baitap.pdf"},
+                {"name": "Quyển 2", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen2.pdf"},
+                {"name": "Quyển 2 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen2_baitap.pdf"},
+                {"name": "Quyển 3", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen3.pdf"},
+                {"name": "Quyển 3 - Bài tập", "url": "https://cdn.a3sachhonaba.com/resource/chuyentin.a3sachhonaba.com/thuvientailieu/tailieu/tailieugiaokhoachuyentin/quyen3_baitap.pdf"}
             ]
         },
         {
