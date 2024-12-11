@@ -5,123 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://cdn.a3sachhonaba.com/resource/icon/chuyentin.webp" type="image/x-icon">
     <title>A3 Chuyên Tin - Thư viện tài liệu</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f2f5;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .folder-btn, .file-btn {
-            cursor: pointer;
-            font-weight: bold;
-            background-color: #ffffff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            text-align: left;
-            width: calc(100% - 24px);
-            margin: 5px 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .folder-btn:hover, .file-btn:hover {
-            background-color: #e0e0e0;
-            transform: scale(1.02);
-        }
-        .file-btn {
-            font-weight: normal;
-        }
-        .folder-contents {
-            margin-left: 20px;
-        }
-        .hidden {
-            display: none;
-        }
-    </style>
-    <script>
-        function toggleVisibility(id) {
-            var element = document.getElementById(id);
-            if (element.classList.contains('hidden')) {
-                element.classList.remove('hidden');
-            } else {
-                element.classList.add('hidden');
-            }
-        }
-
-        async function loadJSON(url) {
-            const response = await fetch(url);
-            return response.json();
-        }
-
-        function createFolderButton(content, id) {
-            const button = document.createElement('button');
-            button.className = 'folder-btn';
-            button.onclick = () => toggleVisibility(id);
-            button.innerText = content;
-            return button;
-        }
-
-        function createFileButton(content, url) {
-            const button = document.createElement('button');
-            button.className = 'file-btn';
-            button.onclick = () => window.open(url, '_blank');
-            button.innerText = content;
-            return button;
-        }
-
-        function createListItem(content, isFolder = false, id = '', url = '') {
-            const li = document.createElement('li');
-            if (isFolder) {
-                li.appendChild(createFolderButton(content, id));
-                const ul = document.createElement('ul');
-                ul.id = id;
-                ul.className = 'folder-contents hidden';
-                li.appendChild(ul);
-            } else {
-                li.appendChild(createFileButton(content, url));
-            }
-            return li;
-        }
-
-        function buildStructure(data, parentElement) {
-            data.forEach(item => {
-                if (item.files) {
-                    const folder = createListItem(item.name, true, item.id);
-                    buildStructure(item.files, folder.querySelector('ul'));
-                    parentElement.appendChild(folder);
-                } else if (item.url) {
-                    const file = createListItem(item.name, false, '', item.url);
-                    parentElement.appendChild(file);
-                }
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', async () => {
-            const data = await loadJSON('/json/thuvientailieu.json');
-            const tailieuElement = document.querySelector('#tailieu');
-            const dethiElement = document.querySelector('#dethi');
-
-            buildStructure(data.tailieu, tailieuElement);
-            buildStructure(data.dethi, dethiElement);
-        });
-    </script>
+    <link rel="stylesheet" href="/thuvientailieu/css/index.css">
 </head>
 <body>
     <div class="container">
@@ -137,5 +21,6 @@
             </li>
         </ul>
     </div>
+    <script src="/thuvientailieu/javascript/index.js"></script>
 </body>
 </html>
