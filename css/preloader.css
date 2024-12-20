@@ -33,7 +33,7 @@
     border: 10px solid transparent;
     border-top: 10px solid #3498db;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -43,6 +43,6 @@
 
 .hide{
     opacity: 0;
-    transition: opacity 2s ease-out;
+    transition: opacity 1.25s ease-out;
     z-index: 0;
 }
